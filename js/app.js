@@ -18,6 +18,7 @@ function addTask() {
         listedElem.appendChild(newTaskDiv);
 
         inputElem.value = '';
+        inputElem.style.backgroundColor = 'white'
     }
 }
 
