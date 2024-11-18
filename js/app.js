@@ -29,6 +29,7 @@ function addTaskEnter(event) {
 
 function removeInput() {
     inputElem.value = '';
+    inputElem.style.backgroundColor = 'white'
 }
 
 function changeColor(event) {
